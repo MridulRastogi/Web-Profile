@@ -10,6 +10,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: hidden;
+    overflow-x: hidden;
     background-position-x: 0px;
     background-position-y: 0px;
     
