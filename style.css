@@ -7,7 +7,8 @@
     background: linear-gradient(rgba(20, 10, 40, 0.7), rgba(0, 0, 0, 0.7)), 
     url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     height: 100%;
-    padding-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,10 +26,12 @@
 
 .link{
     text-decoration: none;
-}
+} 
 .link:hover{
-    color: white;
-    font-size: 13px;
+    /* color: white;
+     font-size: 13px; */
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .profile:hover{
@@ -70,7 +73,21 @@ hr{
     box-shadow: 0 0 20px 2px #000;
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.5);
-
+}
+.containerh:hover{
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+.containers{
+    height: 130px;
+    /* border: 2px dashed #111; */
+    box-shadow: 0 0 20px 2px #000;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+}
+.containers:hover{
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
 }
 /*
 background-color: rgb(0,0,0); // Fallback color 
@@ -86,11 +103,4 @@ z-index: 2;
 text-align: center;
 */
 
-.containers{
-    height: 130px;
-    /* border: 2px dashed #111; */
-    box-shadow: 0 0 20px 2px #000;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.5);
-}
 
